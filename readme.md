@@ -1,3 +1,15 @@
+# Fluxo
+
+1. Enviar mensagem para o whatsapp pelo Twilio
+
+2. Twilio faz uma chamada para o endpoint especificado (programe em go)
+
+3. O programa Go recebe a notificação e manda para a API do chat, retornando a resposta para o twilio.
+
+# Ferramentas
+
+- aws, twilio, ChatGPT
+
 # Deploy
 
 1. `serverless create --template aws-go-mod`
